@@ -65,12 +65,9 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="𝐔ρ𝖽αтєѕ", url=f"https://t.me/Music_World_Update"
-            ),
-            InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="𝖢𝗅𝗈𝗌𝖾"
-          ),
-         
-        
+                text="𝐔ρ𝖽αтєѕ", url=f"https://t.me/Music_World_Update"),
+            InlineKeyboardButton(
+                text=_["CLOSEMENU_BUTTON"], callback_data="𝖢𝗅𝗈𝗌𝖾"),
             InlineKeyboardButton(
                 text="𝐒υρρσɾƚ", url=f"https://t.me/Music_World_Support"),
    ]
@@ -81,12 +78,9 @@ def stream_markup(_, chat_id):
     buttons = [
         [
            InlineKeyboardButton(
-                text="𝐔ρ𝖽αтєѕ", url=f"https://t.me/Music_World_Update"
-            ),
-            InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="𝖢𝗅𝗈𝗌𝖾"
-          ),
-         
-        
+                text="𝐔ρ𝖽αтєѕ", url=f"https://t.me/Music_World_Update"),
+            InlineKeyboardButton(
+                text=_["CLOSEMENU_BUTTON"], callback_data="𝖢𝗅𝗈𝗌𝖾"),
             InlineKeyboardButton(
                 text="𝐒υρρσɾƚ", url=f"https://t.me/Music_World_Support"),
    ]
